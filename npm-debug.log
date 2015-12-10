@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@2.14.3
+3 info using node@v0.10.25
+4 verbose node symlink /usr/bin/node
+5 verbose config Skipping project config: /home/soumya/.npmrc. (matches userconfig)
+6 verbose stack Error: missing script: start
+6 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:142:19)
+6 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:58:5
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:345:5
+6 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:309:45)
+6 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:343:3)
+6 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:113:5)
+6 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:284:20
+6 verbose stack     at evalmachine.<anonymous>:207:20
+6 verbose stack     at OpenReq.Req.done (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/graceful-fs.js:141:5)
+6 verbose stack     at OpenReq.done (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/graceful-fs/graceful-fs.js:61:22)
+7 verbose cwd /home/soumya/wm8_humanApi/project
+8 error Linux 3.13.0-24-generic
+9 error argv "node" "/usr/local/bin/npm" "start"
+10 error node v0.10.25
+11 error npm  v2.14.3
+12 error missing script: start
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]

@@ -12,6 +12,7 @@ var users      =   require('./routes/users');
 var humanapi   =   require('./routes/humanApi');
 var Schedule   =   require('./helper/schedule');
 
+var notificationDetails   =   require('./routes/notificationDetails');
 
 var app = express();
 
@@ -30,6 +31,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 app.use('/humanapi', humanapi);
+
+app.use('/notificationDetails', notificationDetails);
 
 
 // catch 404 and forward to error handler

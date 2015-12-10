@@ -185,7 +185,10 @@ router.get('/data', function(req, res, next) {
 
           res.send(201, update_before);
   });
+router.post('/',function(req, res, next) {
 
+
+});
 
 
 module.exports = router;
